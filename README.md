@@ -11,9 +11,9 @@
 
 ## About the Project
 
-<img src="https://github.com/Luchkiin/bevera-eCommerce-page/blob/master/images/bevera-project-overview.png" alt="Logo" width="1280" height="450">
+<img src="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map/blob/master/img/ica-readme-overview-img.png" alt="Logo" width="1280" height="450">
 
-This project acts as a static webpage consisting of HTML, CSS and JavaScript. I created this project as a school project which acts as a eCommerce site for selling alcoholic beverages.
+This project is showing a map of popular ICA stores in the Dalarna province (SE) and  is built with HTML, CSS and JavaScript. This project was apart of a school project I did during my second year as a Information Systems student at Dalarna University. Furthermore, it makes use of different APIs (i.e. Mapbox, OpenStreetMap, Resrobot, and OpenWeatherMap) which then interacts with the Leaflet map that this project is fundamentally built from.
 
 ## Built With
 * HTML
