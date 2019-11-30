@@ -13,7 +13,7 @@
 
 <img src="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map/blob/master/img/ica-readme-overview-img.png" alt="Logo" width="1280" height="450">
 
-This project is showing a map of popular ICA stores in the Dalarna province (SE) and  is built with HTML, CSS and JavaScript. This project was apart of a school project I did during my second year as a Information Systems student at Dalarna University. Furthermore, it makes use of different APIs (i.e. Mapbox, OpenStreetMap, Resrobot, and OpenWeatherMap) which then interacts with the Leaflet map that this project is fundamentally built from.
+This project is showing a map of popular ICA stores in the Dalarna province (SE) and  is built with HTML, CSS and JavaScript. This project was apart of a school project I did during my second year as a Information Systems student at Dalarna University. Furthermore, it makes use of different APIs (i.e. Mapbox, OpenStreetMap, Resrobot, and OpenWeatherMap) which interacts with the visualized Leaflet map that this project is fundamentally built from.
 
 ## Built With
 * HTML
