@@ -1,0 +1,358 @@
+/*COLOR PALETTE 
+
+Lightgray - #d3d3d3
+Black - #222222
+Red - #E81700
+blue - #0000ff 
+White - #FFFFFF
+-------------------*/
+
+/*FONT IMPORT: Lato*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+/*-----GLOBAL STYLES-----*/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background: #FCFCFC;
+}
+
+h1 {
+    margin: 0;
+    color: #222222;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+}
+
+/*-----HEADER-----*/
+
+header {
+    width: 100%;
+    padding: 2em;
+    background: #eeeeee;
+}
+
+.header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.main-heading {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.header-logo-container {
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    text-align: center;
+}
+
+.header-logo img {
+    max-width: 100%;
+}
+
+/*Main
+----------------------*/
+
+main {
+    min-height: calc(100vh - 250px);
+}
+
+.main-container {
+    margin: 2em;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid-map-item p {
+    padding: .5em 0;
+}
+
+#mapid {
+    height: 60rem;
+    border-radius: 2.5px;
+}
+
+/*
+Sidebar listing
+---------------------*/
+
+.listings {
+    height: 60rem;
+    overflow-y: auto;
+}
+
+.listings .item .title {
+    color: #222222;
+}
+
+.listings .item .title:hover {
+    color: #E81700;
+    -webkit-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.listings .item .title:focus {
+    color: #E81700;
+}
+
+.listings .info {
+    border-bottom: solid 1px lightgray;
+}
+
+.info {
+    padding-bottom: 15px;
+}
+
+/*Sidebar Scrolling*/
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #E81700;
+}
+
+/*Popup windows*/
+
+.leaflet-popup-content-wrapper {
+    border-radius: 2.5px;
+    padding: 1em;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(32, 32, 36, 0.28);
+    box-shadow: 0 1px 6px 0 rgba(32, 32, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#websiteImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 130px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2.5px;
+}
+
+#websiteLink {
+    color: #222222;
+    text-decoration: underline;
+}
+
+#websiteLink:hover {
+    color: #E81700;
+    -webkit-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.school-bus-img {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+}
+
+.weather-icon-img {
+    margin: 0 auto;
+    display: block;
+}
+
+.leaflet-popup-content p {
+    margin: 10px 0;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2em;
+    background: #eeeeee;
+}
+
+.copyright {
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+.icons {
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.icons a {
+    padding: 0 5px;
+    color: #222222;
+}
+
+.icons a:hover {
+    color: #E81700;
+    -webkit-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w > 480px
+*/
+
+@media screen and (max-width: 480px) {
+    /*-----HEADER-----*/
+    .main-heading {
+        display: none;
+    }
+    .header-logo-container {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        text-align: center;
+    }
+    /*-----MAIN-----*/
+    .grid-container {
+        grid-gap: 2em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*-----FOOTER-----*/
+    .footer-container {
+        display: grid;
+        width: 100%;
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+    }
+    .copyright p {
+        text-align: center;
+    }
+    .icons {
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*-----HEADER-----*/
+    .main-heading {
+        display: none;
+    }
+    .header-logo-container {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        text-align: center;
+    }
+    /*-----MAIN-----*/
+    .grid-container {
+        grid-gap: 2em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*-----FOOTER-----*/
+    .footer-container {
+        display: grid;
+        width: 100%;
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+    }
+    .copyright p {
+        text-align: center;
+    }
+    .icons {
+        text-align: center;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (Portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*-----HEADER-----*/
+    .main-heading {
+
+    }
+    .header-logo-container {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        text-align: center;
+    }
+    /*-----MAIN-----*/
+    .grid-container {
+        grid-gap: 2em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /*-----FOOTER-----*/
+    .footer-container {
+        display: grid;
+        width: 100%;
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+    }
+    .copyright p {
+        text-align: center;
+    }
+    .icons {
+        text-align: center;
+    }
+}
