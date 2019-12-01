@@ -15,6 +15,8 @@ White - #FFFFFF
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -24,8 +26,6 @@ html {
 
 body {
     min-height: 100vh;
-    margin: 0 !important;
-    padding: 0 !important;
     font-family: 'Lato', sans-serif;
     line-height: 1.5;
     background: #FCFCFC;
@@ -43,6 +43,7 @@ h3 {
     font-size: 1em;
     font-weight: 400;
     text-transform: uppercase;
+    padding-top: 1em;
 }
 
 h4 {
@@ -51,6 +52,10 @@ h4 {
 
 p {
     font-size: 1em;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*-----HEADER-----*/
@@ -90,7 +95,8 @@ header {
 ----------------------*/
 
 main {
-    min-height: calc(100vh - 250px);
+    min-height: calc(100vh - 280px);
+    background-color: #FCFCFC;
 }
 
 .main-container {
@@ -109,7 +115,7 @@ main {
 }
 
 #mapid {
-    height: 60rem;
+    height: 35rem;
     border-radius: 2.5px;
 }
 
@@ -118,26 +124,29 @@ Sidebar listing
 ---------------------*/
 
 .listings {
-    height: 60rem;
+    height: 35rem;
     overflow-y: auto;
 }
 
 .listings .item .title {
     color: #222222;
+    padding-top: 1em;
 }
 
 .listings .item .title:hover {
     color: #E81700;
     -webkit-transition: color 0.5s ease-out;
     transition: color 0.5s ease-out;
+    text-decoration: underline;
 }
 
 .listings .item .title:focus {
     color: #E81700;
+    text-decoration: underline;
 }
 
 .listings .info {
-    border-bottom: solid 1px lightgray;
+    border-bottom: solid 1px #eeeeee;
 }
 
 .info {
@@ -170,6 +179,7 @@ Sidebar listing
     -webkit-box-shadow: 0 1px 6px 0 rgba(32, 32, 36, 0.28);
     box-shadow: 0 1px 6px 0 rgba(32, 32, 36, 0.28);
     border-color: rgba(223, 225, 229, 0);
+    background-color: #FCFCFC;
 }
 
 #websiteImg {
@@ -198,16 +208,33 @@ Sidebar listing
 .school-bus-img {
     margin: 0 auto;
     display: block;
-    width: 30%;
+    width: 35%;
+    border-radius: 50%;
+    border: solid 1px #222222;
+}
+
+.info-heading-h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 1em 0;
 }
 
 .weather-icon-img {
     margin: 0 auto;
     display: block;
+    width: 40%;
+    border-radius: 50%;
+    border: solid 1px #222222;
+    background-color: #87cefa;
 }
 
 .leaflet-popup-content p {
     margin: 10px 0;
+}
+
+.fa-caret-square-right {
+    color: #E81700;
 }
 
 /*-----FOOTER-----*/
