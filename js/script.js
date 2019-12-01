@@ -82,7 +82,7 @@ map.on("click", event => {
     console.log(latlngObj);
 
     let url = "https://api.resrobot.se/v2/location.nearbystops?key=bc972fe4-be45-43ad-84dc-a52c31eee54e&originCoordLat=" + lat + "&originCoordLong=" + lng + "&format=json";
-    let url1 = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lng + "&units=metric&appid=25f4530d6bd98eb444ce6b94f8db1ef8";
+    let url1 = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lng + "&units=metric&appid=25f4530d6bd98eb444ce6b94f8db1ef8";
 
     //$.when hämtar data från två urls samtidigt
     $.when($.getJSON(url), $.getJSON(url1)).done(function (buss, weather) {
@@ -109,7 +109,7 @@ function createBusstops(latlngObj, data) {
         let popup = L.popup();
         popup.setLatLng(latlngObj);
         //skapar upp väder-Popup:et
-        let tempMsg = "<img src='http://openweathermap.org/img/w/" + weather[0].weather[0].icon + ".png' class='weather-icon-img'><br>";
+        let tempMsg = "<img src='https://openweathermap.org/img/w/" + weather[0].weather[0].icon + ".png' class='weather-icon-img'><br>";
         tempMsg += "In <b>" + weather[0].name + "</b></br>";
         tempMsg += " it's <b>" + weather[0].weather[0].description + "</b><br>";
         tempMsg += " and the temp is <b>" + weather[0].main.temp + " &#8451";
