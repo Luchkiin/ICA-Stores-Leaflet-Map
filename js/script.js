@@ -118,7 +118,7 @@ function createBusstops(latlngObj, data) {
         marker.on('click', function (e) {
             let deptTime = "";
             //Hämtar busstider för för busshållsplats via ID
-            $.getJSON("https://api.resrobot.se/v2/departureBoard?key=0b245f24-07d3-464e-9838-9e1b9fd5530a&id=" + element.id + "&maxJourneys=1&format=json", function (data) {
+            $.getJSON("https://api.resrobot.se/v2/departureBoard?key=3a4b0582-ef3d-4adc-8e40-5167a782d122&id=" + element.id + "&maxJourneys=1&format=json", function (data) {
                 //loopar genom datat baserat på ID som vi hämtar när vi klickar på en buss-marker och lägger det i en popup
                 $.each(data, function (idx, item) {
                     console.log(data);
