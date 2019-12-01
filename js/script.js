@@ -109,10 +109,8 @@ function createBusstops(latlngObj, data) {
         let popup = L.popup();
         popup.setLatLng(latlngObj);
         //skapar upp väder-Popup:et
-        let tempMsg = "<img src='https://openweathermap.org/img/w/" + weather[0].weather[0].icon + ".png' class='weather-icon-img'><br>";
-        tempMsg += "In <b>" + weather[0].name + "</b></br>";
-        tempMsg += " it's <b>" + weather[0].weather[0].description + "</b><br>";
-        tempMsg += " and the temp is <b>" + weather[0].main.temp + " &#8451";
+        let tempMsg = "<img src='https://openweathermap.org/img/wn/" + weather[0].weather[0].icon + ".png' class='weather-icon-img'>" + "<h3 class='info-heading-h3'>Current weather" + "<br>" + "in " + weather[0].name + "</h3>";
+        tempMsg += "<ul><li><b>Temp: </b>" + weather[0].main.temp + " &#8451</li>" + "<li><b>Condition: </b>" + weather[0].weather[0].description + "</li>" + "<li><b>Humidity: </b>" + weather[0].main.humidity + "%" + "</li>" + "<li><b>Wind: </b>" + weather[0].wind.speed + " m/s" + "</li>" + "</ul>";
         //Sätter content
         popup.setContent(tempMsg);
         popup.openOn(map);
@@ -128,8 +126,8 @@ function createBusstops(latlngObj, data) {
                     busstopName = data.Departure[0].Stops.Stop[0].name;
                     console.log(data.Departure[0].name);
                     console.log(item);
-                    let busMsg = "<img src='img/school-bus.png' class='school-bus-img'>" + "<h4>Next bus</h4>";
-                    busMsg += "<p>" + busstopName + "<br>" + "departs at: " + deptTime + "</p>";
+                    let busMsg = "<img src='img/school-bus.png' class='school-bus-img'>" + "<h3 class='info-heading-h3'>Next bus</h3>";
+                    busMsg += "<ul>" + "<li><b>From: </b>" + busstopName + "</li>" + "<b><li>Departs: </b>" + deptTime + "</li></ul>";
                     popup.setContent(busMsg);
                     popup.openOn(map);
                 });
