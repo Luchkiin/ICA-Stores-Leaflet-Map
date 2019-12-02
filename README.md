@@ -29,6 +29,4 @@ This project is showing a map of ICA stores located in the Dalarna province (SE)
 ## Contact
 :email: <a href="mailto:lucas.rosendahl95@gmail.com">lucas.rosendahl95@gmail.com</a>
 <br>
-:link: <a href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/" target="_blank">Project Link</a>
-<br>
 :globe_with_meridians: <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
