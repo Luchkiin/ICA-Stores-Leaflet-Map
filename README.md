@@ -17,7 +17,7 @@ This project is showing a map of ICA stores located in the Dalarna province (SE)
 
 ## Built With
 * HTML
-* CSS (incl. Leaflet, Font Awesome & Bootstrap)
+* CSS (incl. Leaflet & Font Awesome)
 * JavaScript (incl. jQuery, JSON, GeoJSON & Bootstrap)
 
 ## APIs Used
