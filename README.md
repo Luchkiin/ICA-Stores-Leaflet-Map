@@ -21,10 +21,10 @@ This project is showing a map of ICA stores located in the Dalarna province (SE)
 * JavaScript (incl. jQuery, JSON, GeoJSON & Bootstrap)
 
 ## APIs Used
-* Mapbox
-* OpenStreetMap
-* Resrobot
-* OpenWeatherMap
+* <a href="https://www.mapbox.com/" target="_blank" class="project-paragraph-links">Mapbox</a>
+* <a href="https://www.openstreetmap.org/" target="_blank" class="project-paragraph-links">OpenStreetMap</a>
+* <a href="https://www.trafiklab.se/api/resrobot-stolptidtabeller-2" target="_blank" class="project-paragraph-links">Resrobot - Stolptidstabeller 2</a>
+* <a href="https://openweathermap.org/current" target="_blank" class="project-paragraph-links">OpenWeatherMap</a>
 
 ## Contact
 :email: <a href="mailto:lucas.rosendahl95@gmail.com">lucas.rosendahl95@gmail.com</a>
