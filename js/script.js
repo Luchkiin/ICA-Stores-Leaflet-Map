@@ -31,7 +31,7 @@ function sideList(jData) {
         link.href = '#';
         link.className = 'title';
         link.dataPosition = i;
-        link.innerHTML = "<h3>" + prop.store + ", " + prop.adress + "</h3>";
+        link.innerHTML = "<h3>" + prop.store + "</h3>";
 
         let info = listings.appendChild(document.createElement('div'));
         info.className = 'info';
@@ -115,3 +115,30 @@ $.getJSON(jsonfile, function (jsondata) {
     }).addTo(map);
     sideList(jsondata);
 })
+
+
+/*HAMBURGER MENU*/ 
+const navSlide = () => {
+    const burgerMenu = document.querySelector('.burger-menu');
+    const nav = document.querySelector('.nav-links');
+    const navLinks = document.querySelectorAll('.nav-links li');
+
+    burgerMenu.addEventListener('click', () => {
+        //Toggle Nav
+        nav.classList.toggle('nav-active');
+
+        //Animate links
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
+                link.style.animation = ''
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + .8}s`;
+            }
+        });
+        //Burger Animation
+        burgerMenu.classList.toggle('toggle');
+    });
+}
+
+navSlide();
+
