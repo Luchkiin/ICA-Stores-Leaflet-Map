@@ -3,7 +3,7 @@
   <a href="#">
     <img src="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map/blob/master/img/ica-icon-readme.png" alt="Logo" width="150" height="150">
   </a>
-  <h1 align="center">ICA Stores Leaflet Map</h1>
+  <h1 align="center">ICA Stores Locator</h1>
   <p align="center">
     :arrow_forward: <a href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/" target="_blank"> Live Demo</a>
   </p>
