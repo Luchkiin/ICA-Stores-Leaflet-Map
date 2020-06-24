@@ -422,8 +422,8 @@ Sidebar listing
     -webkit-box-align: center;
             align-items: center;
     padding: 1.5em;
-    background: #222222;
-    color: #FCFCFC;
+    background: #eeeeee;
+    color: #222222;
     flex-shrink: 0;
 }
 
@@ -443,11 +443,11 @@ Sidebar listing
 
 .icons a {
     padding: 0 5px;
-    color: #fcfcfc;
+    color: #222222;
 }
 
 .icons a:hover {
-    color: #E81700;
+    color: #646464;
     -webkit-transition: color 0.5s ease-out;
     transition: color 0.5s ease-out;
 }
