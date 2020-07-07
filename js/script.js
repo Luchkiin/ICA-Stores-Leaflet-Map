@@ -42,7 +42,7 @@ function sideList(jData) {
 
         let info = listing.appendChild(document.createElement('div'));
         info.className = 'accordion-info';
-        info.innerHTML = "<div class='accordion-info-container'><div><h4>Hours</h4><span>" + prop.openingHours + "</span></div><div><>Address<span>" + prop.adress + "</span></div></div>";
+        info.innerHTML = "<div class='accordion-info-container'><div><h4>Hours</h4><span>" + prop.openingHours + "</span></div><div><h4>Address</h4><span>" + prop.adress + "</span></div></div>";
 
         let items = document.querySelectorAll(".sidebar-accordion .accordion-icon");
         items.forEach((item) => item.addEventListener('click', toggleAccordion));
