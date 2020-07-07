@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>ICA Stores Dalarna</title>
+    <title>ICA Stores Locator</title>
     <!--Bootstrap & jQuery imports-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -26,11 +26,28 @@
 <body>
     <header>
         <div class="header-container">
+            <div class="header-logo-container">
+                <a href="index.html">
+                    <img src="img/ICA-logotyp.png" alt="ICA logo" class="header-logo">
+                </a>
+            </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="https://www.ica.se/" target="_blank">ICA</a></li>
-                    <li><a href="http://www.lucasrosendahl.com" target="_blank">PORTFOLIO</a></li>
+                    <li class="hover"><a href="index.html">HOME</a></li>
+                    <li class="hover"><a href="https://www.ica.se/" target="_blank">ICA</a></li>
+                    <li class="hover"><a href="http://www.lucasrosendahl.com" target="_blank">PORTFOLIO</a></li>
+                    <li>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/ICA" target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.youtube.com/user/ica" target="_blank"><i
+                                    class="fab fa-youtube-square"></i></a>
+                            <a href="https://twitter.com/ICAGruppen" target="_blank"><i
+                                    class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/icasverige" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                    </li>
                 </ul>
                 <div class="burger-menu">
                     <div class="line-1"></div>
@@ -38,11 +55,6 @@
                     <div class="line-3"></div>
                 </div>
             </nav>
-            <div class="header-logo-container">
-                <a href="index.html">
-                    <img src="img/ICA-logotyp.png" alt="ICA logo" class="header-logo">
-                </a>
-            </div>
         </div>
     </header>
 
@@ -50,12 +62,14 @@
         <div class="main-container">
             <div class="grid-container">
                 <div id="grid-sidebar-item">
-                    <div id="listings" class="listings"></div>
+                    <div id="sidebar" class="sidebar"></div>
                 </div>
                 <div class="grid-map-item">
                     <div id="mapid"></div>
                     <div id="datalatlang"></div>
-                    <p>Click the map for more info about public transportation and current weather</p>
+                    <div class="map-info">
+                        <p>Click the map for more info about public transportation and current weather</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,20 +77,6 @@
         <script src="js/script.js"></script>
 
     </main>
-
-    <footer>
-        <div class="footer-container">
-            <div class="icons">
-                <a href="https://www.facebook.com/ICA" target="_blank"><i
-                        class="fab fa-facebook-square fa-2x"></i></a>
-                <a href="https://www.youtube.com/user/ica" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-                <a href="https://twitter.com/ICAGruppen" target="_blank"><i
-                        class="fab fa-twitter-square fa-2x"></i></a>
-                <a href="https://www.instagram.com/icasverige" target="_blank"><i
-                        class="fab fa-instagram fa-2x"></i></a>
-            </div>
-        </div>
-    </footer>
 </body>
 
 </html>
