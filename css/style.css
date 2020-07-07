@@ -264,6 +264,7 @@ nav {
 .map-info p {
     color: #999ea3;
     padding-top: .25em;
+    padding-left: .5em;
 }
 
 /*Leaflet map control styles*/
