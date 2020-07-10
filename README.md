@@ -29,5 +29,5 @@ It also makes use of different APIs (i.e. Mapbox, OpenStreetMap, Resrobot, and O
 * <a href="https://openweathermap.org/current" target="_blank" class="project-paragraph-links">OpenWeatherMap</a>
 
 ## Contact
-* :email: <a href="mailto:lucas.rosendahl95@gmail.com">lucas.rosendahl95@gmail.com</a>
+* :email: <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
 * :globe_with_meridians: <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
