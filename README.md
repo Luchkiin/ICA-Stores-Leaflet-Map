@@ -11,7 +11,7 @@
 
 ## About the Project
 
-<img src="https://github.com/Luchkiin/Portfolio/blob/master/images/projects/ica-stores/ICA-stores-project-overview.png" alt="Logo" width="auto" height="auto">
+<img src="https://github.com/Luchkiin/portfolio-v2/blob/master/images/og-images/ica-stores.png" alt="Logo" width="auto" height="auto">
 
 This project is showing a map of ICA stores located in the Dalarna province (SE) and is built with HTML, CSS and JavaScript. I created this project during my second year as a Information Systems student at Dalarna University. 
 
