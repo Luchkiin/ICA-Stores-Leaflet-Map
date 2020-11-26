@@ -262,7 +262,7 @@ nav {
 }
 
 .map-info p {
-    color: #999ea3;
+    color: #666666;
     padding-top: .25em;
     padding-left: .5em;
 }
@@ -343,7 +343,7 @@ nav {
 
 .sidebar .accordion-info {
     border-bottom: solid 1px #eeeeee;
-    color: rgba(34, 34, 34, .8);
+    color: #666666;
 }
 
 .accordion-info {
@@ -372,6 +372,7 @@ nav {
     -o-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
     border-top: 1px solid #eeeeee;
+    border-bottom: none;
 }
 
 .accordion-info-container {
@@ -515,7 +516,7 @@ nav {
 .leaflet-popup-content span {
     display: flex;
     font-size: 14px;
-    color: rgba(34, 34, 34, .8);
+    color: #666666;
 }
 
 .store-image-container {
@@ -545,13 +546,14 @@ nav {
 }
 
 .store-website-link {
-    color: #222222 !important;
+    color: #666666 !important;
     padding-right: .5em;
     font-size: 14px;
 }
 
 .store-website-link:hover {
     text-decoration: underline;
+    color: #222222 !important;
 }
 
 .store-info-wrapper {
