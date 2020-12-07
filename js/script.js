@@ -166,3 +166,7 @@ const navSlide = () => {
 
 navSlide();
 
+//Removes the ID # from URL when Nav link is being clicked
+$(window).on("hashchange", function (e) {
+    history.replaceState("", document.title, e.originalEvent.oldURL);
+});
