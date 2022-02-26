@@ -2,8 +2,8 @@
 Lightgray - #EEEEEE
 Grey - #999ea3
 Black - #222222
-White - #FCFCFC
-Red - #E81700
+White - #FFFFFF
+Red - #E3000B
 Green - #5ebc86
 Blue - #22a9fd
 -------------------*/
@@ -29,7 +29,7 @@ html, body {
 body {
     font-family: 'Work Sans', sans-serif;
     line-height: 1.5;
-    background: #FCFCFC;
+    background: #ffffff;
     overflow-x: hidden;
     font-size: 10px !important;
 }
@@ -67,7 +67,7 @@ img {
 
 .header-container {
     padding: 1.5em 2em;
-    background: #fcfcfc;
+    background: #ffffff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), 0 0 4px rgba(0, 0, 0, 0.24);
     height: 10vh;
     display: -webkit-box;
@@ -116,7 +116,7 @@ nav {
     right: 0px;
     height: 100vh;
     top: 0;
-    background: #fcfcfc;
+    background: #ffffff;
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -275,7 +275,7 @@ nav {
 }
 
 .leaflet-bar a {
-    background: #fcfcfc;
+    background: #ffffff;
 }
 
 .leaflet-bar a:first-child {
@@ -460,7 +460,7 @@ nav {
     border-radius: 5px;
     padding: 0;
     padding-bottom: 1.5em;
-    background-color: #FCFCFC;
+    background-color: #ffffff;
 }
 
 /*Cancel Button Popup Styles*/
@@ -481,7 +481,7 @@ nav {
     width: 18px;
     height: 16px;
     font: 24px/24px 'Work Sans', sans-serif;
-    color: #fcfcfc;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     background: transparent;
@@ -525,7 +525,7 @@ nav {
 
 .store-image-container span {
     justify-content: center;
-    color: #FCFCFC;
+    color: #ffffff;
     font-size: 1.6em;
     text-align: center;
     padding-top: .5em;
@@ -589,7 +589,7 @@ nav {
     font-weight: 600;
     font-size: 1.6em !important;
     padding-bottom: 0 !important;
-    color: #fcfcfc !important;
+    color: #ffffff !important;
 }
 
 .bus-info-wrapper {
