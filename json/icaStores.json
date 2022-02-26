@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "store": "ICA Nära Gagnefhallen",
-                "picURL": "img/stores/ica-gagnef.jpg",
+                "picURL": "img/ica-logo.svg",
                 "adress": "Tyskens Väg 2, 785 30 Gagnef",
                 "openingHours": "Mon - Fri: 08-20<br>Saturdays: 08-20<br>Sundays: 10-20",
                 "website": "https://www.ica.se/butiker/nara/gagnef/ica-nara-gagnefhallen-603/start/"

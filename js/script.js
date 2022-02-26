@@ -11,10 +11,10 @@ L.control.scale().addTo(map);
 
 function myForEachFeature(feature, layer) {
     if (feature.properties) {
-        popmsg = "<div class='store-image-container'><img id=websiteImg class=store-image src=" + feature.properties.picURL + " width=100><span>" + feature.properties.store + "</span></div>";
+        popmsg = "<div class='store-image-container'><img id=websiteImg class=store-image src=" + feature.properties.picURL + " width=50><span>" + feature.properties.store + "</span></div>";
         popmsg += "<div class='store-info-wrapper'><div class='store-heading-container'><h3>Store</h3><span>" + feature.properties.store + "</span></div>";
-        popmsg += "<div class='store-heading-container'><h3>Address</h3><span>" + feature.properties.adress + "</span></div>";
         popmsg += "<div class='store-heading-container'><h3>Hours</h3><span>" + feature.properties.openingHours + "</span></div>";
+        popmsg += "<div class='store-heading-container'><h3>Address</h3><span>" + feature.properties.adress + "</span></div>";
         popmsg += "<div class='store-heading-container'><h3>Webpage</h3><a id=websiteLink class=store-website-link target=_blank href=" + feature.properties.website + ">" + "Click here</a><i class='fas fa-caret-square-right'></i></div></div>";
         layer.bindPopup(popmsg);
     }

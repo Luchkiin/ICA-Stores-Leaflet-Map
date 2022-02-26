@@ -42,7 +42,8 @@ h3 {
 }
 
 h4 {
-    color: rgba(34, 34, 34, .8);
+    color: #222222;
+    margin-bottom: 4px;
 }
 
 p {
@@ -76,8 +77,8 @@ img {
     align-items: center;
 }
 
-.header-logo img {
-    width: 100%;
+.header-logo {
+    width: 100px;
 }
 
 /* Navigation Styles
@@ -104,10 +105,6 @@ nav {
     transition: all .3s ease;
     align-self: center;
     display: flex;
-}
-
-.burger-menu:hover>div {
-    background: #999ea3;
 }
 
 .burger-menu div:last-child {
@@ -365,7 +362,7 @@ nav {
 
 .accordion-info.active {
     opacity: 1;
-    padding: .75rem 1rem;
+    padding: 1rem 0;
     max-height: 100%;
     font-size: 1.4em;
     -webkit-transition: all 0.35s ease 0.15s;
@@ -381,7 +378,7 @@ nav {
 }
 
 .accordion-info-container div {
-    padding-bottom: .5em;
+    padding-bottom: 1em;
 }
 
 .accordion-info-container div:last-child {
@@ -520,7 +517,7 @@ nav {
 }
 
 .store-image-container {
-    background-color: rgba(232, 23, 6, .8);
+    background-color: #e3000b;
     padding: 2em;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -543,6 +540,7 @@ nav {
     width: 75px;
     height: 75px;
     border-radius: 50%;
+    background-color: #ffffff;
 }
 
 .store-website-link {
@@ -562,7 +560,7 @@ nav {
 }
 
 .store-heading-container {
-    background: #eee;
+    background: #f2f2f2;
     border-radius: 5px;
     margin-bottom: .5em;
     padding: 1em;
@@ -581,8 +579,8 @@ nav {
 .bus-img {
     margin: 0 auto;
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
 }
 
@@ -611,7 +609,7 @@ nav {
 }
 
 .bus-heading-container {
-    background: #eee;
+    background: #f2f2f2;
     border-radius: 5px;
     margin-bottom: .5em;
     padding: 1em;
@@ -637,8 +635,8 @@ nav {
 .weather-icon-img {
     margin: 0 auto;
     display: block;
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 75px;
+    min-height: 75px;
     border-radius: 50%;
     background-color: #22a9fd;
 }
@@ -649,7 +647,7 @@ nav {
 }
 
 .weather-heading-container {
-    background: #eee;
+    background: #f2f2f2;
     border-radius: 5px;
     margin-bottom: .5em;
     padding: 1em;
