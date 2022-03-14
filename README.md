@@ -1,21 +1,16 @@
 <br />
-<p align="center">
-  <a href="#">
-    <img src="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map/blob/master/img/ica-icon-readme.png" alt="Logo" width="150" height="150">
-  </a>
-  <h1 align="center">ICA Stores Locator</h1>
-  <p align="center">
-    :arrow_forward: <a href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/" target="_blank"> Live Demo</a>
-  </p>
-</p>
+<h1 align="left">ICA Stores Locator</h1>
+<p align="left">Web application / Map application</p>
+
+<img src="https://github.com/Luchkiin/portfolio-v3/blob/master/images/works/ica/ica_image_big.png" alt="Logo" width="auto" height="auto">
 
 ## About the Project
 
-<img src="https://github.com/Luchkiin/portfolio-v2/blob/master/images/og-images/ica-stores.png" alt="Logo" width="auto" height="auto">
+ICA Store Locator is a handy map application that offers users to find their nearest ICA store located within the Swedish province of Dalarna.
 
-This project is showing a map of ICA stores located in the Dalarna province (SE) and is built with HTML, CSS and JavaScript. I created this project during my second year as a Information Systems student at Dalarna University. 
+When using the application, the user can zoom in on a selected ICA store by clicking on its name in the sidebar menu. Once zoomed in, the user can see relevant info, such as opening hours, address info, transport information, and current weather information.
 
-It also makes use of different APIs (i.e. Mapbox, OpenStreetMap, Resrobot, and OpenWeatherMap) which interacts with the visualized Leaflet map that this project is fundamentally built from.
+<a href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/"> Live Demo</a>
 
 ## Built With
 * HTML
@@ -29,5 +24,5 @@ It also makes use of different APIs (i.e. Mapbox, OpenStreetMap, Resrobot, and O
 * <a href="https://openweathermap.org/current" target="_blank" class="project-paragraph-links">OpenWeatherMap</a>
 
 ## Contact
-* :email: <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
-* :globe_with_meridians: <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
+* <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
+* <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
