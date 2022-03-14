@@ -26,3 +26,4 @@ When using the application, the user can zoom in on a selected ICA store by clic
 ## Contact
 * <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
 * <a href="https://lucasrosendahl.com" target="_blank">Portfolio</a>
+<br />
